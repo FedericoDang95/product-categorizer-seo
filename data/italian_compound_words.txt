@@ -1,0 +1,221 @@
+# Parole composte automobilistiche in italiano
+# Formato: parola_composta=parola1,parola2
+
+# Parti del motore
+blocco motore=blocco,motore
+testata motore=testata,motore
+albero motore=albero,motore
+albero a camme=albero,camme
+cinghia distribuzione=cinghia,distribuzione
+kit distribuzione=kit,distribuzione
+pompa acqua=pompa,acqua
+pompa olio=pompa,olio
+filtro olio=filtro,olio
+filtro aria=filtro,aria
+filtro abitacolo=filtro,abitacolo
+filtro carburante=filtro,carburante
+filtro antiparticolato=filtro,antiparticolato
+sonda lambda=sonda,lambda
+valvola egr=valvola,egr
+monoblocco motore=monoblocco,motore
+pistone motore=pistone,motore
+segmenti pistone=segmenti,pistone
+bielle motore=bielle,motore
+cuscinetti banco=cuscinetti,banco
+cuscinetti biella=cuscinetti,biella
+paraolio albero=paraolio,albero
+paraolio distribuzione=paraolio,distribuzione
+paraolio cambio=paraolio,cambio
+kit revisione=kit,revisione
+kit riparazione=kit,riparazione
+kit montaggio=kit,montaggio
+
+# Freni
+disco freno=disco,freno
+pastiglie freno=pastiglie,freno
+ganasce freno=ganasce,freno
+pinza freno=pinza,freno
+cilindretti freno=cilindretti,freno
+cilindro maestro=cilindro,maestro
+pompa freno=pompa,freno
+servo freno=servo,freno
+tubo freno=tubo,freno
+liquido freni=liquido,freni
+kit freni=kit,freni
+freno a mano=freno,mano
+cavo freno=cavo,freno
+
+# Trasmissione
+disco frizione=disco,frizione
+spingidisco frizione=spingidisco,frizione
+cuscinetto frizione=cuscinetto,frizione
+volano frizione=volano,frizione
+volano bimassa=volano,bimassa
+kit frizione=kit,frizione
+scatola cambio=scatola,cambio
+albero primario=albero,primario
+albero secondario=albero,secondario
+sincronizzatore cambio=sincronizzatore,cambio
+forcella cambio=forcella,cambio
+giunto omocinetico=giunto,omocinetico
+crociera cardano=crociera,cardano
+albero cardano=albero,cardano
+semiasse trasmissione=semiasse,trasmissione
+cuffia giunto=cuffia,giunto
+cuffia cambio=cuffia,cambio
+olio cambio=olio,cambio
+olio differenziale=olio,differenziale
+
+# Sospensioni
+ammortizzatore anteriore=ammortizzatore,anteriore
+ammortizzatore posteriore=ammortizzatore,posteriore
+molla sospensione=molla,sospensione
+braccio sospensione=braccio,sospensione
+braccetto sospensione=braccetto,sospensione
+testina sterzo=testina,sterzo
+giunto sferico=giunto,sferico
+silent block=silent,block
+boccola braccio=boccola,braccio
+kit sospensione=kit,sospensione
+kit bracci=kit,bracci
+kit ammortizzatori=kit,ammortizzatori
+scatola sterzo=scatola,sterzo
+piantone sterzo=piantone,sterzo
+cremagliera sterzo=cremagliera,sterzo
+pompa servosterzo=pompa,servosterzo
+olio servosterzo=olio,servosterzo
+
+# Elettrico
+batteria auto=batteria,auto
+alternatore auto=alternatore,auto
+motorino avviamento=motorino,avviamento
+centralina motore=centralina,motore
+centralina abs=centralina,abs
+centralina airbag=centralina,airbag
+sensore temperatura=sensore,temperatura
+sensore pressione=sensore,pressione
+sensore giri=sensore,giri
+sensore posizione=sensore,posizione
+sensore fase=sensore,fase
+sensore albero=sensore,albero
+sensore abs=sensore,abs
+sensore livello=sensore,livello
+faro anteriore=faro,anteriore
+fanale posteriore=fanale,posteriore
+fendinebbia anteriore=fendinebbia,anteriore
+retronebbia posteriore=retronebbia,posteriore
+proiettore xenon=proiettore,xenon
+lampadina faro=lampadina,faro
+devioluci volante=devioluci,volante
+deviosgancio volante=deviosgancio,volante
+motorino tergicristallo=motorino,tergicristallo
+pompa lavavetri=pompa,lavavetri
+
+# Carrozzeria
+paraurti anteriore=paraurti,anteriore
+paraurti posteriore=paraurti,posteriore
+cofano motore=cofano,motore
+portiera anteriore=portiera,anteriore
+portiera posteriore=portiera,posteriore
+specchietto retrovisore=specchietto,retrovisore
+vetro portiera=vetro,portiera
+parabrezza anteriore=parabrezza,anteriore
+lunotto posteriore=lunotto,posteriore
+finestrino laterale=finestrino,laterale
+maniglia esterna=maniglia,esterna
+maniglia interna=maniglia,interna
+serratura portiera=serratura,portiera
+cruscotto auto=cruscotto,auto
+volante auto=volante,auto
+sedile anteriore=sedile,anteriore
+sedile posteriore=sedile,posteriore
+cintura sicurezza=cintura,sicurezza
+airbag conducente=airbag,conducente
+airbag passeggero=airbag,passeggero
+airbag laterale=airbag,laterale
+airbag tendina=airbag,tendina
+modulo airbag=modulo,airbag
+
+# Raffreddamento e climatizzazione
+radiatore motore=radiatore,motore
+radiatore acqua=radiatore,acqua
+radiatore olio=radiatore,olio
+radiatore aria=radiatore,aria
+ventola raffreddamento=ventola,raffreddamento
+termostato motore=termostato,motore
+pompa acqua=pompa,acqua
+vaschetta espansione=vaschetta,espansione
+manicotto radiatore=manicotto,radiatore
+manicotto superiore=manicotto,superiore
+manicotto inferiore=manicotto,inferiore
+compressore clima=compressore,clima
+condensatore clima=condensatore,clima
+filtro abitacolo=filtro,abitacolo
+ventilatore abitacolo=ventilatore,abitacolo
+resistenza ventola=resistenza,ventola
+gas refrigerante=gas,refrigerante
+
+# Alimentazione
+serbatoio carburante=serbatoio,carburante
+pompa benzina=pompa,benzina
+pompa gasolio=pompa,gasolio
+iniettore benzina=iniettore,benzina
+iniettore diesel=iniettore,diesel
+flauto iniettori=flauto,iniettori
+regolatore pressione=regolatore,pressione
+filtro carburante=filtro,carburante
+tubo carburante=tubo,carburante
+valvola minimo=valvola,minimo
+corpo farfallato=corpo,farfallato
+debimetro aria=debimetro,aria
+candeletta preriscaldo=candeletta,preriscaldo
+pompa iniezione=pompa,iniezione
+turbina motore=turbina,motore
+turbocompressore diesel=turbocompressore,diesel
+valvola wastegate=valvola,wastegate
+valvola blow off=valvola,blow off
+intercooler aria=intercooler,aria
+
+# Scarico
+collettore scarico=collettore,scarico
+tubo centrale=tubo,centrale
+tubo intermedio=tubo,intermedio
+marmitta centrale=marmitta,centrale
+marmitta posteriore=marmitta,posteriore
+silenziatore scarico=silenziatore,scarico
+catalizzatore auto=catalizzatore,auto
+sonda lambda=sonda,lambda
+filtro antiparticolato=filtro,antiparticolato
+filtro dpf=filtro,dpf
+filtro fap=filtro,fap
+valvola egr=valvola,egr
+fascetta scarico=fascetta,scarico
+guarnizione scarico=guarnizione,scarico
+
+# Pneumatici e cerchi
+pneumatico estivo=pneumatico,estivo
+pneumatico invernale=pneumatico,invernale
+pneumatico quattro stagioni=pneumatico,quattro stagioni
+cerchio lega=cerchio,lega
+cerchio acciaio=cerchio,acciaio
+bullone ruota=bullone,ruota
+dado ruota=dado,ruota
+coprimozzo ruota=coprimozzo,ruota
+copricerchio ruota=copricerchio,ruota
+valvola pneumatico=valvola,pneumatico
+sensore pressione=sensore,pressione
+kit riparazione=kit,riparazione
+
+# Termini generici
+ricambio originale=ricambio,originale
+ricambio aftermarket=ricambio,aftermarket
+ricambio compatibile=ricambio,compatibile
+ricambio equivalente=ricambio,equivalente
+ricambio nuovo=ricambio,nuovo
+ricambio usato=ricambio,usato
+ricambio rigenerato=ricambio,rigenerato
+ricambio revisionato=ricambio,revisionato
+kit montaggio=kit,montaggio
+kit riparazione=kit,riparazione
+kit revisione=kit,revisione
+kit completo=kit,completo

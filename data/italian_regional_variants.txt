@@ -1,0 +1,342 @@
+# Varianti regionali italiane per termini automobilistici
+# Formato: variante_regionale=termine_standard,regione
+
+# Nord Italia
+macchina=automobile,nord
+auto=automobile,nord
+vettura=automobile,nord
+motore=propulsore,nord
+freni=impianto frenante,nord
+gomme=pneumatici,nord
+cerchioni=cerchi,nord
+paraurti=bumper,nord
+cofano=vano motore,nord
+baule=portabagagli,nord
+cruscotto=plancia,nord
+volante=sterzo,nord
+marce=cambio,nord
+frizione=clutch,nord
+acceleratore=gas,nord
+fari=luci,nord
+tergicristalli=spazzole,nord
+clacson=avvisatore acustico,nord
+antifurto=allarme,nord
+bollo=tassa di circolazione,nord
+assicurazione=polizza,nord
+revisione=controllo tecnico,nord
+tagliando=manutenzione programmata,nord
+carrozziere=lattoniere,nord
+meccanico=riparatore,nord
+gommista=pneumaticista,nord
+autolavaggio=lavaggio auto,nord
+distributore=stazione di servizio,nord
+benzina=carburante,nord
+gasolio=diesel,nord
+metano=gas naturale,nord
+gpl=gas di petrolio liquefatto,nord
+
+# Lombardia
+macchina=automobile,lombardia
+maghina=automobile,lombardia
+motùr=motore,lombardia
+frèn=freni,lombardia
+gòm=gomme,lombardia
+paraurt=paraurti,lombardia
+cufanù=cofano,lombardia
+baùl=baule,lombardia
+ulant=volante,lombardia
+marsc=marce,lombardia
+far=fari,lombardia
+spazzul=tergicristalli,lombardia
+clacson=avvisatore acustico,lombardia
+benżina=benzina,lombardia
+gażöli=gasolio,lombardia
+
+# Piemonte
+macchina=automobile,piemonte
+vitura=automobile,piemonte
+moteur=motore,piemonte
+fren=freni,piemonte
+gome=gomme,piemonte
+paraurt=paraurti,piemonte
+cofano=cofano,piemonte
+baul=baule,piemonte
+volan=volante,piemonte
+marce=marce,piemonte
+far=fari,piemonte
+tergicristal=tergicristalli,piemonte
+clacson=avvisatore acustico,piemonte
+benzina=benzina,piemonte
+gasolio=gasolio,piemonte
+
+# Veneto
+machina=automobile,veneto
+auto=automobile,veneto
+motor=motore,veneto
+freni=freni,veneto
+gome=gomme,veneto
+paracolpi=paraurti,veneto
+cofano=cofano,veneto
+baul=baule,veneto
+volante=volante,veneto
+marce=marce,veneto
+fari=fari,veneto
+spasole=tergicristalli,veneto
+trombe=clacson,veneto
+benzina=benzina,veneto
+gasolio=gasolio,veneto
+
+# Liguria
+macchina=automobile,liguria
+auto=automobile,liguria
+motô=motore,liguria
+freni=freni,liguria
+gumme=gomme,liguria
+paraùrti=paraurti,liguria
+cufano=cofano,liguria
+baule=baule,liguria
+volante=volante,liguria
+marce=marce,liguria
+fari=fari,liguria
+tergicristalli=tergicristalli,liguria
+clacson=clacson,liguria
+benzinn-a=benzina,liguria
+gasolio=gasolio,liguria
+
+# Emilia-Romagna
+machina=automobile,emilia-romagna
+auto=automobile,emilia-romagna
+mutor=motore,emilia-romagna
+fren=freni,emilia-romagna
+gom=gomme,emilia-romagna
+paraurt=paraurti,emilia-romagna
+cufan=cofano,emilia-romagna
+baul=baule,emilia-romagna
+vulant=volante,emilia-romagna
+marci=marce,emilia-romagna
+farel=fari,emilia-romagna
+spasul=tergicristalli,emilia-romagna
+tramba=clacson,emilia-romagna
+benzina=benzina,emilia-romagna
+gasoli=gasolio,emilia-romagna
+
+# Centro Italia
+macchina=automobile,centro
+auto=automobile,centro
+vettura=automobile,centro
+motore=propulsore,centro
+freni=impianto frenante,centro
+gomme=pneumatici,centro
+cerchioni=cerchi,centro
+paraurti=bumper,centro
+cofano=vano motore,centro
+baule=portabagagli,centro
+cruscotto=plancia,centro
+volante=sterzo,centro
+marce=cambio,centro
+frizione=clutch,centro
+acceleratore=gas,centro
+fari=luci,centro
+tergicristalli=spazzole,centro
+clacson=avvisatore acustico,centro
+antifurto=allarme,centro
+bollo=tassa di circolazione,centro
+assicurazione=polizza,centro
+revisione=controllo tecnico,centro
+tagliando=manutenzione programmata,centro
+carrozziere=lattoniere,centro
+meccanico=riparatore,centro
+gommista=pneumaticista,centro
+autolavaggio=lavaggio auto,centro
+distributore=stazione di servizio,centro
+benzina=carburante,centro
+gasolio=diesel,centro
+metano=gas naturale,centro
+gpl=gas di petrolio liquefatto,centro
+
+# Toscana
+macchina=automobile,toscana
+auto=automobile,toscana
+motore=motore,toscana
+freni=freni,toscana
+gomme=gomme,toscana
+paraurti=paraurti,toscana
+cofano=cofano,toscana
+baule=baule,toscana
+volante=volante,toscana
+marce=marce,toscana
+fari=fari,toscana
+tergicristalli=tergicristalli,toscana
+clacson=clacson,toscana
+benzina=benzina,toscana
+gasolio=gasolio,toscana
+
+# Lazio
+macchina=automobile,lazio
+auto=automobile,lazio
+motore=motore,lazio
+freni=freni,lazio
+gomme=gomme,lazio
+paraurti=paraurti,lazio
+cofano=cofano,lazio
+baule=baule,lazio
+volante=volante,lazio
+marce=marce,lazio
+fari=fari,lazio
+tergicristalli=tergicristalli,lazio
+clacson=clacson,lazio
+benzina=benzina,lazio
+gasolio=gasolio,lazio
+
+# Umbria
+macchina=automobile,umbria
+auto=automobile,umbria
+motore=motore,umbria
+freni=freni,umbria
+gomme=gomme,umbria
+paraurti=paraurti,umbria
+cofano=cofano,umbria
+baule=baule,umbria
+volante=volante,umbria
+marce=marce,umbria
+fari=fari,umbria
+tergicristalli=tergicristalli,umbria
+clacson=clacson,umbria
+benzina=benzina,umbria
+gasolio=gasolio,umbria
+
+# Marche
+macchina=automobile,marche
+auto=automobile,marche
+motore=motore,marche
+freni=freni,marche
+gomme=gomme,marche
+paraurti=paraurti,marche
+cofano=cofano,marche
+baule=baule,marche
+volante=volante,marche
+marce=marce,marche
+fari=fari,marche
+tergicristalli=tergicristalli,marche
+clacson=clacson,marche
+benzina=benzina,marche
+gasolio=gasolio,marche
+
+# Sud Italia
+macchina=automobile,sud
+auto=automobile,sud
+vettura=automobile,sud
+motore=propulsore,sud
+freni=impianto frenante,sud
+gomme=pneumatici,sud
+cerchioni=cerchi,sud
+paraurti=bumper,sud
+cofano=vano motore,sud
+baule=portabagagli,sud
+cruscotto=plancia,sud
+volante=sterzo,sud
+marce=cambio,sud
+frizione=clutch,sud
+acceleratore=gas,sud
+fari=luci,sud
+tergicristalli=spazzole,sud
+clacson=avvisatore acustico,sud
+antifurto=allarme,sud
+bollo=tassa di circolazione,sud
+assicurazione=polizza,sud
+revisione=controllo tecnico,sud
+tagliando=manutenzione programmata,sud
+carrozziere=lattoniere,sud
+meccanico=riparatore,sud
+gommista=pneumaticista,sud
+autolavaggio=lavaggio auto,sud
+distributore=stazione di servizio,sud
+benzina=carburante,sud
+gasolio=diesel,sud
+metano=gas naturale,sud
+gpl=gas di petrolio liquefatto,sud
+
+# Campania
+macchina=automobile,campania
+auto=automobile,campania
+motore=motore,campania
+freni=freni,campania
+gomme=gomme,campania
+paraurti=paraurti,campania
+cofano=cofano,campania
+baule=baule,campania
+volante=volante,campania
+marce=marce,campania
+fari=fari,campania
+tergicristalli=tergicristalli,campania
+clacson=clacson,campania
+benzina=benzina,campania
+gasolio=gasolio,campania
+
+# Puglia
+macchina=automobile,puglia
+auto=automobile,puglia
+motore=motore,puglia
+freni=freni,puglia
+gomme=gomme,puglia
+paraurti=paraurti,puglia
+cofano=cofano,puglia
+baule=baule,puglia
+volante=volante,puglia
+marce=marce,puglia
+fari=fari,puglia
+tergicristalli=tergicristalli,puglia
+clacson=clacson,puglia
+benzina=benzina,puglia
+gasolio=gasolio,puglia
+
+# Calabria
+macchina=automobile,calabria
+auto=automobile,calabria
+motore=motore,calabria
+freni=freni,calabria
+gomme=gomme,calabria
+paraurti=paraurti,calabria
+cofano=cofano,calabria
+baule=baule,calabria
+volante=volante,calabria
+marce=marce,calabria
+fari=fari,calabria
+tergicristalli=tergicristalli,calabria
+clacson=clacson,calabria
+benzina=benzina,calabria
+gasolio=gasolio,calabria
+
+# Sicilia
+macchina=automobile,sicilia
+auto=automobile,sicilia
+motore=motore,sicilia
+freni=freni,sicilia
+gomme=gomme,sicilia
+paraurti=paraurti,sicilia
+cofano=cofano,sicilia
+baule=baule,sicilia
+volante=volante,sicilia
+marce=marce,sicilia
+fari=fari,sicilia
+tergicristalli=tergicristalli,sicilia
+clacson=clacson,sicilia
+benzina=benzina,sicilia
+gasolio=gasolio,sicilia
+
+# Sardegna
+macchina=automobile,sardegna
+auto=automobile,sardegna
+motore=motore,sardegna
+freni=freni,sardegna
+gomme=gomme,sardegna
+paraurti=paraurti,sardegna
+cofano=cofano,sardegna
+baule=baule,sardegna
+volante=volante,sardegna
+marce=marce,sardegna
+fari=fari,sardegna
+tergicristalli=tergicristalli,sardegna
+clacson=clacson,sardegna
+benzina=benzina,sardegna
+gasolio=gasolio,sardegna

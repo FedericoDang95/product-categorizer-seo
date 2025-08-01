@@ -1,0 +1,153 @@
+{
+  "language": "it",
+  "language_name": "Italiano",
+  "country_code": "IT",
+  "encoding": "utf-8",
+  "locale": "it_IT.UTF-8",
+  
+  "data_files": {
+    "stopwords": "data/italian_stopwords.txt",
+    "stemming_rules": "data/italian_stemming_rules.txt",
+    "compound_words": "data/italian_compound_words.txt",
+    "automotive_terms": "data/italian_automotive_terms.txt",
+    "regional_variants": "data/italian_regional_variants.txt",
+    "categories": "data/italian_categories.json",
+    "seo_keywords": "data/italian_seo_keywords.json",
+    "analysis_rules": "data/italian_analysis_rules.json"
+  },
+  
+  "nlp_settings": {
+    "spacy_model": "it_core_news_sm",
+    "nltk_language": "italian",
+    "stemmer": "italian",
+    "tokenizer": "italian",
+    "pos_tagger": "italian",
+    "lemmatizer": "italian"
+  },
+  
+  "categorization": {
+    "confidence_threshold": 0.7,
+    "max_categories": 3,
+    "use_regional_variants": true,
+    "use_compound_words": true,
+    "use_stemming": true,
+    "case_sensitive": false,
+    "normalize_accents": true,
+    "remove_stopwords": true
+  },
+  
+  "seo_optimization": {
+    "enabled": true,
+    "keyword_density_target": 1.5,
+    "title_length_optimal": 60,
+    "description_length_optimal": 150,
+    "meta_description_length_optimal": 150,
+    "use_schema_markup": true,
+    "generate_alt_text": true,
+    "optimize_urls": true
+  },
+  
+  "quality_scoring": {
+    "title_weight": 0.25,
+    "description_weight": 0.30,
+    "technical_specs_weight": 0.20,
+    "compatibility_weight": 0.15,
+    "seo_weight": 0.10
+  },
+  
+  "validation_rules": {
+    "required_fields": ["title", "description", "category"],
+    "min_title_length": 30,
+    "max_title_length": 100,
+    "min_description_length": 300,
+    "max_description_length": 2000,
+    "validate_compatibility": true,
+    "validate_technical_specs": true,
+    "validate_brand_model": true
+  },
+  
+  "output_format": {
+    "include_confidence": true,
+    "include_alternatives": true,
+    "include_seo_suggestions": true,
+    "include_technical_analysis": true,
+    "include_quality_score": true,
+    "format": "json"
+  },
+  
+  "caching": {
+    "enabled": true,
+    "ttl_seconds": 3600,
+    "max_entries": 10000,
+    "cache_key_prefix": "italian_categorizer"
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "logs/italian_categorizer.log",
+    "max_file_size": "10MB",
+    "backup_count": 5
+  },
+  
+  "performance": {
+    "batch_size": 100,
+    "max_concurrent_requests": 10,
+    "timeout_seconds": 30,
+    "retry_attempts": 3,
+    "retry_delay_seconds": 1
+  },
+  
+  "features": {
+    "auto_translation": false,
+    "multi_language_support": false,
+    "regional_adaptation": true,
+    "brand_recognition": true,
+    "technical_validation": true,
+    "seo_optimization": true,
+    "quality_scoring": true,
+    "compatibility_check": true
+  },
+  
+  "api_endpoints": {
+    "categorize": "/api/categorize",
+    "categories": "/api/categories",
+    "seo_keywords": "/api/seo/keywords",
+    "analyze_title": "/api/analyze/title",
+    "health": "/api/health",
+    "metrics": "/api/metrics"
+  },
+  
+  "rate_limiting": {
+    "requests_per_minute": 60,
+    "requests_per_hour": 1000,
+    "requests_per_day": 10000,
+    "burst_limit": 10
+  },
+  
+  "security": {
+    "max_content_length": "16MB",
+    "allowed_file_types": ["json", "txt", "csv"],
+    "sanitize_input": true,
+    "validate_encoding": true,
+    "escape_html": true
+  },
+  
+  "monitoring": {
+    "metrics_enabled": true,
+    "health_check_enabled": true,
+    "performance_tracking": true,
+    "error_tracking": true,
+    "usage_analytics": true
+  },
+  
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2023-05-15",
+    "last_updated": "2023-05-15",
+    "author": "Product Categorizer SEO Team",
+    "description": "Configurazione principale per il sistema di categorizzazione prodotti automobilistici in italiano",
+    "supported_domains": ["automotive", "auto_parts", "vehicle_accessories"],
+    "target_markets": ["Italy", "San Marino", "Vatican City", "Italian-speaking Switzerland"]
+  }
+}

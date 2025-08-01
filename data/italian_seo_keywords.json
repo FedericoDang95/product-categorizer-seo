@@ -1,0 +1,611 @@
+{
+  "seo_keywords": {
+    "ricambi_auto": {
+      "high_volume": [
+        "ricambi auto",
+        "ricambi auto online",
+        "ricambi auto usati",
+        "ricambi auto economici",
+        "ricambi auto originali",
+        "ricambi auto aftermarket",
+        "ricambi auto compatibili",
+        "ricambi auto nuovi",
+        "ricambi auto d'epoca",
+        "ricambi auto italiani"
+      ],
+      "medium_volume": [
+        "ricambi auto di qualità",
+        "ricambi auto certificati",
+        "ricambi auto garantiti",
+        "ricambi auto a basso costo",
+        "ricambi auto per tutte le marche",
+        "ricambi auto per veicoli commerciali",
+        "ricambi auto per auto d'importazione",
+        "ricambi auto per auto americane",
+        "ricambi auto per auto tedesche",
+        "ricambi auto per auto giapponesi"
+      ],
+      "low_volume": [
+        "ricambi auto con consegna rapida",
+        "ricambi auto con garanzia estesa",
+        "ricambi auto con montaggio incluso",
+        "ricambi auto con assistenza tecnica",
+        "ricambi auto con scheda tecnica",
+        "ricambi auto con codice originale",
+        "ricambi auto con spedizione gratuita",
+        "ricambi auto con reso gratuito",
+        "ricambi auto con pagamento alla consegna",
+        "ricambi auto con fattura"
+      ],
+      "long_tail": [
+        "dove trovare ricambi auto di qualità a buon prezzo",
+        "come scegliere i migliori ricambi auto per la propria vettura",
+        "ricambi auto originali vs aftermarket quale scegliere",
+        "ricambi auto online con consegna in 24 ore",
+        "ricambi auto per auto d'epoca difficili da trovare",
+        "ricambi auto con garanzia di compatibilità",
+        "ricambi auto con certificazione di qualità europea",
+        "ricambi auto per auto fuori produzione",
+        "ricambi auto con assistenza al montaggio",
+        "ricambi auto con scheda tecnica dettagliata"
+      ]
+    },
+    "motore": {
+      "high_volume": [
+        "ricambi motore",
+        "parti motore",
+        "componenti motore",
+        "motore auto",
+        "motore completo",
+        "motore rigenerato",
+        "motore usato",
+        "motore nuovo",
+        "blocco motore",
+        "testata motore"
+      ],
+      "medium_volume": [
+        "kit motore",
+        "guarnizioni motore",
+        "pistoni motore",
+        "albero motore",
+        "bielle motore",
+        "valvole motore",
+        "distribuzione motore",
+        "cinghia distribuzione",
+        "catena distribuzione",
+        "pompa olio motore"
+      ],
+      "low_volume": [
+        "revisione motore",
+        "riparazione motore",
+        "rettifica motore",
+        "motore a benzina",
+        "motore diesel",
+        "motore turbo",
+        "motore ibrido",
+        "motore elettrico",
+        "motore GPL",
+        "motore metano"
+      ],
+      "long_tail": [
+        "come scegliere un motore rigenerato di qualità",
+        "quanto costa sostituire un motore completo",
+        "differenza tra motore revisionato e rigenerato",
+        "come verificare lo stato di un motore usato",
+        "kit completo per revisione motore fai da te",
+        "motore compatibile per sostituzione auto",
+        "problemi comuni ai motori diesel e come risolverli",
+        "manutenzione preventiva del motore consigli",
+        "quando è necessario sostituire la testata del motore",
+        "come aumentare le prestazioni del motore legalmente"
+      ]
+    },
+    "freni": {
+      "high_volume": [
+        "freni auto",
+        "pastiglie freni",
+        "dischi freni",
+        "kit freni",
+        "pinze freni",
+        "freni a tamburo",
+        "liquido freni",
+        "pompa freni",
+        "freno a mano",
+        "sensore ABS"
+      ],
+      "medium_volume": [
+        "ganasce freni",
+        "cilindretti freni",
+        "tubi freni",
+        "cavi freno a mano",
+        "servofreno",
+        "regolatore frenata",
+        "freni sportivi",
+        "freni ventilati",
+        "freni forati",
+        "freni baffati"
+      ],
+      "low_volume": [
+        "revisione freni",
+        "spurgo freni",
+        "riparazione freni",
+        "freni ceramici",
+        "freni carboceramici",
+        "freni autoventilanti",
+        "freni rigenerati",
+        "freni maggiorati",
+        "freni racing",
+        "freni per auto d'epoca"
+      ],
+      "long_tail": [
+        "come capire quando cambiare le pastiglie dei freni",
+        "quanto durano in media i dischi freni di un'auto",
+        "differenza tra dischi freni forati e baffati",
+        "come fare lo spurgo dei freni da soli",
+        "kit completo per sostituzione freni anteriori",
+        "problemi comuni all'impianto frenante e soluzioni",
+        "come migliorare l'efficienza dei freni della propria auto",
+        "pastiglie freni che non fanno polvere consigli",
+        "quando è necessario sostituire il liquido dei freni",
+        "freni che stridono cause e rimedi"
+      ]
+    },
+    "trasmissione": {
+      "high_volume": [
+        "trasmissione auto",
+        "cambio auto",
+        "frizione auto",
+        "volano auto",
+        "differenziale auto",
+        "semiassi auto",
+        "giunti auto",
+        "cuscinetti trasmissione",
+        "olio cambio",
+        "kit frizione"
+      ],
+      "medium_volume": [
+        "cambio manuale",
+        "cambio automatico",
+        "cambio robotizzato",
+        "cambio DSG",
+        "cambio CVT",
+        "disco frizione",
+        "spingidisco",
+        "cuscinetto frizione",
+        "volano bimassa",
+        "volano monomassa"
+      ],
+      "low_volume": [
+        "revisione cambio",
+        "riparazione cambio",
+        "sincronizzatori cambio",
+        "ingranaggi cambio",
+        "selettore marce",
+        "leva cambio",
+        "cavo frizione",
+        "pompa frizione",
+        "trasmissione integrale",
+        "trasmissione anteriore"
+      ],
+      "long_tail": [
+        "come capire quando la frizione è da cambiare",
+        "quanto costa sostituire un cambio automatico",
+        "differenza tra volano bimassa e monomassa",
+        "problemi comuni ai cambi DSG e soluzioni",
+        "kit completo per sostituzione frizione fai da te",
+        "come verificare lo stato dei giunti omocinetici",
+        "rumori dal cambio cause e rimedi",
+        "manutenzione del cambio automatico consigli",
+        "quando è necessario sostituire l'olio del cambio",
+        "trasmissione che slitta cause e soluzioni"
+      ]
+    },
+    "sospensioni": {
+      "high_volume": [
+        "sospensioni auto",
+        "ammortizzatori auto",
+        "molle auto",
+        "bracci sospensione",
+        "barra stabilizzatrice",
+        "silent block",
+        "kit sospensioni",
+        "sospensioni sportive",
+        "sospensioni ribassate",
+        "sospensioni regolabili"
+      ],
+      "medium_volume": [
+        "testine sospensione",
+        "cuffie ammortizzatori",
+        "tamponi sospensione",
+        "supporti ammortizzatori",
+        "boccole sospensione",
+        "biellette sospensione",
+        "triangoli sospensione",
+        "assetto sportivo",
+        "sospensioni pneumatiche",
+        "sospensioni idrauliche"
+      ],
+      "low_volume": [
+        "revisione sospensioni",
+        "riparazione sospensioni",
+        "sospensioni a ghiera",
+        "sospensioni coilover",
+        "sospensioni elettroniche",
+        "sospensioni attive",
+        "sospensioni adattive",
+        "sospensioni McPherson",
+        "sospensioni multilink",
+        "sospensioni a quadrilatero"
+      ],
+      "long_tail": [
+        "come capire quando gli ammortizzatori sono da cambiare",
+        "quanto costa sostituire le sospensioni complete",
+        "differenza tra sospensioni sportive e di serie",
+        "problemi comuni alle sospensioni pneumatiche e soluzioni",
+        "kit completo per abbassare l'assetto dell'auto",
+        "come verificare lo stato dei silent block",
+        "rumori dalle sospensioni cause e rimedi",
+        "manutenzione delle sospensioni consigli",
+        "quando è necessario fare la convergenza dopo cambio sospensioni",
+        "sospensioni che cigolano cause e soluzioni"
+      ]
+    },
+    "sterzo": {
+      "high_volume": [
+        "sterzo auto",
+        "scatola sterzo",
+        "cremagliera sterzo",
+        "servosterzo",
+        "pompa servosterzo",
+        "idroguida",
+        "volante auto",
+        "piantone sterzo",
+        "tiranti sterzo",
+        "testine sterzo"
+      ],
+      "medium_volume": [
+        "olio servosterzo",
+        "cuffie sterzo",
+        "braccetti sterzo",
+        "snodi sterzo",
+        "elettroguida",
+        "sterzo elettrico",
+        "sterzo idraulico",
+        "sterzo meccanico",
+        "volante sportivo",
+        "volante multifunzione"
+      ],
+      "low_volume": [
+        "revisione sterzo",
+        "riparazione sterzo",
+        "sterzo diretto",
+        "sterzo progressivo",
+        "sterzo variabile",
+        "sterzo attivo",
+        "sterzo adattivo",
+        "sterzo per auto d'epoca",
+        "sterzo racing",
+        "sterzo sportivo"
+      ],
+      "long_tail": [
+        "come capire quando la scatola sterzo è da cambiare",
+        "quanto costa sostituire la cremagliera dello sterzo",
+        "differenza tra servosterzo idraulico ed elettrico",
+        "problemi comuni al servosterzo e soluzioni",
+        "perdita olio servosterzo cause e rimedi",
+        "come verificare lo stato dei tiranti dello sterzo",
+        "sterzo duro o che tira da una parte cause",
+        "manutenzione del sistema di sterzo consigli",
+        "quando è necessario fare la convergenza dopo interventi allo sterzo",
+        "rumori dallo sterzo durante le manovre cause e soluzioni"
+      ]
+    },
+    "elettronica": {
+      "high_volume": [
+        "elettronica auto",
+        "centralina auto",
+        "sensori auto",
+        "batteria auto",
+        "alternatore auto",
+        "motorino avviamento",
+        "fari auto",
+        "fanali auto",
+        "impianto elettrico auto",
+        "fusibili auto"
+      ],
+      "medium_volume": [
+        "centralina motore",
+        "centralina ABS",
+        "centralina airbag",
+        "sensore temperatura",
+        "sensore pressione",
+        "sensore giri",
+        "sensore posizione",
+        "sonda lambda",
+        "debimetro",
+        "relè auto"
+      ],
+      "low_volume": [
+        "diagnosi elettronica",
+        "riprogrammazione centralina",
+        "mappatura centralina",
+        "elettronica di potenza",
+        "moduli elettronici",
+        "attuatori elettrici",
+        "cablaggio auto",
+        "connettori elettrici",
+        "elettronica per auto d'epoca",
+        "elettronica racing"
+      ],
+      "long_tail": [
+        "come diagnosticare problemi alla centralina motore",
+        "quanto costa sostituire l'alternatore dell'auto",
+        "differenza tra batteria standard e batteria AGM",
+        "problemi comuni all'impianto elettrico e soluzioni",
+        "come verificare lo stato della batteria dell'auto",
+        "motorino avviamento che fa click cause e rimedi",
+        "sensori difettosi sintomi e diagnosi",
+        "manutenzione dell'impianto elettrico consigli",
+        "quando è necessario riprogrammare la centralina",
+        "elettronica che va in protezione cause e soluzioni"
+      ]
+    },
+    "carrozzeria": {
+      "high_volume": [
+        "carrozzeria auto",
+        "paraurti auto",
+        "cofano auto",
+        "portiera auto",
+        "parafango auto",
+        "specchietto auto",
+        "vetri auto",
+        "parabrezza auto",
+        "lunotto auto",
+        "finestrino auto"
+      ],
+      "medium_volume": [
+        "lamierati auto",
+        "modanature auto",
+        "maniglie auto",
+        "serrature auto",
+        "tetto auto",
+        "baule auto",
+        "spoiler auto",
+        "minigonne auto",
+        "griglia auto",
+        "calotte specchietti"
+      ],
+      "low_volume": [
+        "riparazione carrozzeria",
+        "verniciatura auto",
+        "lucidatura auto",
+        "levabolli",
+        "kit carrozzeria",
+        "carrozzeria in fibra",
+        "carrozzeria in carbonio",
+        "carrozzeria per auto d'epoca",
+        "carrozzeria tuning",
+        "carrozzeria sportiva"
+      ],
+      "long_tail": [
+        "come riparare piccoli graffi sulla carrozzeria",
+        "quanto costa sostituire un paraurti completo",
+        "differenza tra parabrezza originale e aftermarket",
+        "problemi comuni alle serrature delle portiere e soluzioni",
+        "come sostituire uno specchietto retrovisore",
+        "riparazione ammaccature senza verniciatura",
+        "protezione della carrozzeria consigli e prodotti",
+        "manutenzione della carrozzeria in inverno",
+        "quando è necessario sostituire il parabrezza scheggiato",
+        "carrozzeria che arrugginisce cause e prevenzione"
+      ]
+    },
+    "climatizzazione": {
+      "high_volume": [
+        "climatizzatore auto",
+        "aria condizionata auto",
+        "compressore clima auto",
+        "condensatore clima auto",
+        "evaporatore clima auto",
+        "gas refrigerante auto",
+        "filtro abitacolo",
+        "radiatore riscaldamento",
+        "ventola abitacolo",
+        "resistenza ventola"
+      ],
+      "medium_volume": [
+        "valvola espansione clima",
+        "pressostato clima",
+        "sensore temperatura abitacolo",
+        "centralina climatizzatore",
+        "tubazioni clima",
+        "frizione compressore",
+        "puleggia compressore",
+        "filtro disidratatore",
+        "bocchette aria",
+        "comandi clima"
+      ],
+      "low_volume": [
+        "ricarica clima auto",
+        "riparazione clima auto",
+        "sanificazione clima auto",
+        "conversione gas R134a",
+        "conversione gas R1234yf",
+        "clima bizona",
+        "clima trizona",
+        "clima automatico",
+        "clima per auto d'epoca",
+        "clima ad alte prestazioni"
+      ],
+      "long_tail": [
+        "come capire se il climatizzatore ha bisogno di ricarica",
+        "quanto costa sostituire il compressore del clima",
+        "differenza tra gas R134a e R1234yf",
+        "problemi comuni al sistema di climatizzazione e soluzioni",
+        "come pulire e sanificare il climatizzatore dell'auto",
+        "climatizzatore che non raffredda cause e rimedi",
+        "manutenzione del sistema di climatizzazione consigli",
+        "quando è necessario sostituire il filtro abitacolo",
+        "cattivi odori dal climatizzatore cause e soluzioni",
+        "climatizzatore rumoroso diagnosi e interventi"
+      ]
+    },
+    "carburante": {
+      "high_volume": [
+        "sistema carburante auto",
+        "pompa benzina",
+        "pompa gasolio",
+        "iniettori auto",
+        "filtro benzina",
+        "filtro gasolio",
+        "serbatoio carburante",
+        "galleggiante serbatoio",
+        "sensore livello carburante",
+        "tappo serbatoio"
+      ],
+      "medium_volume": [
+        "regolatore pressione carburante",
+        "rampa iniettori",
+        "valvola canister",
+        "sonda serbatoio",
+        "tubo carburante",
+        "flussometro",
+        "debimetro",
+        "carburatore",
+        "common rail",
+        "pompa alta pressione"
+      ],
+      "low_volume": [
+        "pulizia iniettori",
+        "revisione pompa carburante",
+        "riparazione serbatoio",
+        "impianto GPL",
+        "impianto metano",
+        "sistema flex fuel",
+        "sistema iniezione diretta",
+        "sistema iniezione indiretta",
+        "sistema carburante per auto d'epoca",
+        "sistema carburante racing"
+      ],
+      "long_tail": [
+        "come capire se la pompa della benzina è da cambiare",
+        "quanto costa sostituire gli iniettori diesel",
+        "differenza tra sistema common rail e iniettore pompa",
+        "problemi comuni al sistema di alimentazione e soluzioni",
+        "come pulire gli iniettori senza smontarli",
+        "auto che non parte per problemi di carburante",
+        "manutenzione del sistema di alimentazione consigli",
+        "quando è necessario sostituire il filtro del gasolio",
+        "consumi elevati di carburante cause e rimedi",
+        "rumore dalla pompa carburante diagnosi e interventi"
+      ]
+    },
+    "scarico": {
+      "high_volume": [
+        "sistema scarico auto",
+        "marmitta auto",
+        "catalizzatore auto",
+        "silenziatore auto",
+        "tubo di scarico",
+        "collettore di scarico",
+        "sonda lambda",
+        "filtro antiparticolato",
+        "terminale di scarico",
+        "valvola EGR"
+      ],
+      "medium_volume": [
+        "marmitta sportiva",
+        "scarico sportivo",
+        "downpipe",
+        "catalizzatore sportivo",
+        "flessibile scarico",
+        "guarnizione scarico",
+        "fascetta scarico",
+        "staffa scarico",
+        "gommino scarico",
+        "flangia scarico"
+      ],
+      "low_volume": [
+        "pulizia FAP",
+        "rigenerazione DPF",
+        "pulizia valvola EGR",
+        "scarico inox",
+        "scarico titanio",
+        "scarico racing",
+        "scarico omologato",
+        "scarico per auto d'epoca",
+        "scarico con valvola",
+        "scarico con sound attivo"
+      ],
+      "long_tail": [
+        "come capire se il catalizzatore è intasato",
+        "quanto costa sostituire il filtro antiparticolato",
+        "differenza tra scarico originale e sportivo",
+        "problemi comuni al sistema di scarico e soluzioni",
+        "come pulire la valvola EGR senza smontarla",
+        "spia FAP accesa cause e rimedi",
+        "manutenzione del sistema di scarico consigli",
+        "quando è necessario sostituire la sonda lambda",
+        "scarico rumoroso o che vibra cause e soluzioni",
+        "scarico che perde diagnosi e interventi"
+      ]
+    },
+    "ruote_pneumatici": {
+      "high_volume": [
+        "pneumatici auto",
+        "gomme auto",
+        "cerchi auto",
+        "cerchioni auto",
+        "ruote complete",
+        "pneumatici estivi",
+        "pneumatici invernali",
+        "pneumatici 4 stagioni",
+        "cerchi in lega",
+        "cerchi in acciaio"
+      ],
+      "medium_volume": [
+        "cuscinetto ruota",
+        "mozzo ruota",
+        "bulloni ruota",
+        "dadi ruota",
+        "valvole pneumatici",
+        "sensori pressione pneumatici",
+        "copricerchi",
+        "distanziali ruote",
+        "catene neve",
+        "pneumatici runflat"
+      ],
+      "low_volume": [
+        "equilibratura ruote",
+        "convergenza ruote",
+        "assetto ruote",
+        "cerchi forgiati",
+        "cerchi flow forming",
+        "pneumatici ribassati",
+        "pneumatici rinforzati",
+        "pneumatici per auto d'epoca",
+        "pneumatici racing",
+        "pneumatici semislick"
+      ],
+      "long_tail": [
+        "come scegliere i pneumatici giusti per la propria auto",
+        "quanto costa un set completo di cerchi in lega",
+        "differenza tra pneumatici estivi e 4 stagioni",
+        "problemi comuni ai cuscinetti ruota e sintomi",
+        "come leggere le misure dei pneumatici",
+        "pneumatici che si consumano in modo irregolare cause",
+        "manutenzione dei pneumatici consigli",
+        "quando è necessario sostituire i pneumatici",
+        "vibrazioni al volante durante la guida cause e rimedi",
+        "rumore dai pneumatici diagnosi e soluzioni"
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "language": "it",
+    "last_updated": "2023-05-15",
+    "total_keywords": 480,
+    "categories": 11
+  }
+}

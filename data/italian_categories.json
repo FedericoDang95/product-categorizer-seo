@@ -1,0 +1,424 @@
+{
+  "categories": [
+    {
+      "id": "ricambi_auto",
+      "name": "Ricambi Auto",
+      "description": "Parti e componenti generici per automobili",
+      "keywords": ["ricambio", "pezzo", "componente", "parte", "auto", "automobile", "veicolo"],
+      "subcategories": ["motore", "freni", "trasmissione", "sospensioni", "sterzo", "elettronica", "carrozzeria", "climatizzazione", "carburante", "scarico", "ruote_pneumatici"]
+    },
+    {
+      "id": "motore",
+      "name": "Motore",
+      "description": "Componenti del motore e sistemi correlati",
+      "keywords": ["motore", "propulsore", "cilindro", "pistone", "testata", "albero motore", "distribuzione"],
+      "subcategories": ["blocco_motore", "testata", "distribuzione", "raffreddamento", "lubrificazione", "alimentazione"]
+    },
+    {
+      "id": "blocco_motore",
+      "name": "Blocco Motore",
+      "description": "Componenti principali del blocco motore",
+      "keywords": ["blocco", "monoblocco", "cilindro", "pistone", "biella", "albero motore", "basamento"],
+      "subcategories": []
+    },
+    {
+      "id": "testata",
+      "name": "Testata",
+      "description": "Componenti della testata del motore",
+      "keywords": ["testata", "valvola", "guarnizione testata", "camera combustione", "candela"],
+      "subcategories": []
+    },
+    {
+      "id": "distribuzione",
+      "name": "Distribuzione",
+      "description": "Sistema di distribuzione del motore",
+      "keywords": ["distribuzione", "cinghia", "catena", "puleggia", "tendicinghia", "albero a camme", "punteria"],
+      "subcategories": []
+    },
+    {
+      "id": "raffreddamento",
+      "name": "Sistema di Raffreddamento",
+      "description": "Componenti del sistema di raffreddamento",
+      "keywords": ["radiatore", "termostato", "pompa acqua", "ventola", "liquido refrigerante", "manicotto"],
+      "subcategories": []
+    },
+    {
+      "id": "lubrificazione",
+      "name": "Sistema di Lubrificazione",
+      "description": "Componenti del sistema di lubrificazione",
+      "keywords": ["olio", "filtro olio", "pompa olio", "coppa olio", "lubrificante", "pressione olio"],
+      "subcategories": []
+    },
+    {
+      "id": "alimentazione",
+      "name": "Sistema di Alimentazione",
+      "description": "Componenti del sistema di alimentazione",
+      "keywords": ["carburatore", "iniettore", "pompa carburante", "filtro carburante", "serbatoio", "collettore"],
+      "subcategories": []
+    },
+    {
+      "id": "freni",
+      "name": "Freni",
+      "description": "Componenti del sistema frenante",
+      "keywords": ["freno", "disco", "pastiglia", "pinza", "tamburo", "ganasce", "cilindretto", "pompa freno", "abs"],
+      "subcategories": ["freni_anteriori", "freni_posteriori", "freno_a_mano", "abs"]
+    },
+    {
+      "id": "freni_anteriori",
+      "name": "Freni Anteriori",
+      "description": "Componenti del sistema frenante anteriore",
+      "keywords": ["freno anteriore", "disco anteriore", "pastiglia anteriore", "pinza anteriore"],
+      "subcategories": []
+    },
+    {
+      "id": "freni_posteriori",
+      "name": "Freni Posteriori",
+      "description": "Componenti del sistema frenante posteriore",
+      "keywords": ["freno posteriore", "disco posteriore", "pastiglia posteriore", "pinza posteriore", "tamburo", "ganasce"],
+      "subcategories": []
+    },
+    {
+      "id": "freno_a_mano",
+      "name": "Freno a Mano",
+      "description": "Componenti del freno di stazionamento",
+      "keywords": ["freno a mano", "freno di stazionamento", "cavo freno", "leva freno"],
+      "subcategories": []
+    },
+    {
+      "id": "abs",
+      "name": "Sistema ABS",
+      "description": "Componenti del sistema antibloccaggio",
+      "keywords": ["abs", "centralina abs", "sensore abs", "pompa abs", "antibloccaggio"],
+      "subcategories": []
+    },
+    {
+      "id": "trasmissione",
+      "name": "Trasmissione",
+      "description": "Componenti del sistema di trasmissione",
+      "keywords": ["trasmissione", "cambio", "frizione", "differenziale", "albero", "giunto", "semiasse"],
+      "subcategories": ["frizione", "cambio", "differenziale", "alberi_trasmissione"]
+    },
+    {
+      "id": "frizione",
+      "name": "Frizione",
+      "description": "Componenti del sistema di frizione",
+      "keywords": ["frizione", "disco frizione", "spingidisco", "cuscinetto", "volano", "pompa frizione"],
+      "subcategories": []
+    },
+    {
+      "id": "cambio",
+      "name": "Cambio",
+      "description": "Componenti del cambio",
+      "keywords": ["cambio", "marce", "selettore", "sincronizzatore", "ingranaggio", "leva cambio", "olio cambio"],
+      "subcategories": []
+    },
+    {
+      "id": "differenziale",
+      "name": "Differenziale",
+      "description": "Componenti del differenziale",
+      "keywords": ["differenziale", "corona", "pignone", "satelliti", "planetari", "autobloccante"],
+      "subcategories": []
+    },
+    {
+      "id": "alberi_trasmissione",
+      "name": "Alberi di Trasmissione",
+      "description": "Alberi e giunti di trasmissione",
+      "keywords": ["albero", "semiasse", "giunto", "crociera", "cardano", "omocinetico"],
+      "subcategories": []
+    },
+    {
+      "id": "sospensioni",
+      "name": "Sospensioni",
+      "description": "Componenti del sistema di sospensione",
+      "keywords": ["sospensione", "ammortizzatore", "molla", "braccio", "barra stabilizzatrice", "silent block"],
+      "subcategories": ["ammortizzatori", "molle", "bracci_sospensione", "barre_stabilizzatrici"]
+    },
+    {
+      "id": "ammortizzatori",
+      "name": "Ammortizzatori",
+      "description": "Ammortizzatori e componenti correlati",
+      "keywords": ["ammortizzatore", "pistone", "olio ammortizzatore", "gas", "tampone"],
+      "subcategories": []
+    },
+    {
+      "id": "molle",
+      "name": "Molle",
+      "description": "Molle e componenti correlati",
+      "keywords": ["molla", "elicoidale", "balestra", "barra di torsione", "supporto molla"],
+      "subcategories": []
+    },
+    {
+      "id": "bracci_sospensione",
+      "name": "Bracci Sospensione",
+      "description": "Bracci e componenti della sospensione",
+      "keywords": ["braccio", "triangolo", "bielletta", "snodo", "giunto sferico", "silent block"],
+      "subcategories": []
+    },
+    {
+      "id": "barre_stabilizzatrici",
+      "name": "Barre Stabilizzatrici",
+      "description": "Barre stabilizzatrici e componenti correlati",
+      "keywords": ["barra stabilizzatrice", "bielletta barra", "boccola barra", "antirollio"],
+      "subcategories": []
+    },
+    {
+      "id": "sterzo",
+      "name": "Sterzo",
+      "description": "Componenti del sistema di sterzo",
+      "keywords": ["sterzo", "volante", "piantone", "scatola guida", "cremagliera", "servosterzo", "idroguida"],
+      "subcategories": ["scatola_sterzo", "servosterzo", "tiranteria"]
+    },
+    {
+      "id": "scatola_sterzo",
+      "name": "Scatola Sterzo",
+      "description": "Scatola dello sterzo e componenti correlati",
+      "keywords": ["scatola sterzo", "cremagliera", "pignone", "guarnizione sterzo"],
+      "subcategories": []
+    },
+    {
+      "id": "servosterzo",
+      "name": "Servosterzo",
+      "description": "Componenti del servosterzo",
+      "keywords": ["servosterzo", "pompa servosterzo", "olio servosterzo", "idroguida", "elettroguida"],
+      "subcategories": []
+    },
+    {
+      "id": "tiranteria",
+      "name": "Tiranteria",
+      "description": "Tiranteria dello sterzo e componenti correlati",
+      "keywords": ["tirante", "testina", "braccetto", "snodo", "cuffia"],
+      "subcategories": []
+    },
+    {
+      "id": "elettronica",
+      "name": "Elettronica",
+      "description": "Componenti elettrici ed elettronici",
+      "keywords": ["elettrico", "elettronico", "centralina", "sensore", "attuatore", "relè", "fusibile"],
+      "subcategories": ["batteria", "alternatore", "motorino_avviamento", "illuminazione", "centraline", "sensori"]
+    },
+    {
+      "id": "batteria",
+      "name": "Batteria",
+      "description": "Batterie e componenti correlati",
+      "keywords": ["batteria", "accumulatore", "polo", "morsetto", "elettrolito"],
+      "subcategories": []
+    },
+    {
+      "id": "alternatore",
+      "name": "Alternatore",
+      "description": "Alternatori e componenti correlati",
+      "keywords": ["alternatore", "regolatore tensione", "puleggia alternatore", "diodo", "statore", "rotore"],
+      "subcategories": []
+    },
+    {
+      "id": "motorino_avviamento",
+      "name": "Motorino di Avviamento",
+      "description": "Motorini di avviamento e componenti correlati",
+      "keywords": ["motorino avviamento", "starter", "solenoide", "pignone avviamento", "spazzole"],
+      "subcategories": []
+    },
+    {
+      "id": "illuminazione",
+      "name": "Illuminazione",
+      "description": "Componenti del sistema di illuminazione",
+      "keywords": ["faro", "fanale", "lampadina", "indicatore direzione", "stop", "fendinebbia", "proiettore"],
+      "subcategories": []
+    },
+    {
+      "id": "centraline",
+      "name": "Centraline",
+      "description": "Centraline elettroniche e componenti correlati",
+      "keywords": ["centralina", "ecu", "unità controllo", "modulo", "processore", "memoria"],
+      "subcategories": []
+    },
+    {
+      "id": "sensori",
+      "name": "Sensori",
+      "description": "Sensori e componenti correlati",
+      "keywords": ["sensore", "sonda", "trasduttore", "lambda", "temperatura", "pressione", "giri"],
+      "subcategories": []
+    },
+    {
+      "id": "carrozzeria",
+      "name": "Carrozzeria",
+      "description": "Componenti della carrozzeria",
+      "keywords": ["carrozzeria", "lamierato", "paraurti", "portiera", "cofano", "parafango", "specchietto"],
+      "subcategories": ["lamierati", "paraurti", "vetri", "specchietti", "serrature"]
+    },
+    {
+      "id": "lamierati",
+      "name": "Lamierati",
+      "description": "Lamierati e componenti correlati",
+      "keywords": ["lamierato", "cofano", "portiera", "parafango", "tetto", "baule", "fiancata"],
+      "subcategories": []
+    },
+    {
+      "id": "paraurti",
+      "name": "Paraurti",
+      "description": "Paraurti e componenti correlati",
+      "keywords": ["paraurti", "bumper", "spoiler", "griglia", "modanatura"],
+      "subcategories": []
+    },
+    {
+      "id": "vetri",
+      "name": "Vetri",
+      "description": "Vetri e componenti correlati",
+      "keywords": ["vetro", "parabrezza", "lunotto", "deflettore", "finestrino", "cristallo"],
+      "subcategories": []
+    },
+    {
+      "id": "specchietti",
+      "name": "Specchietti",
+      "description": "Specchietti e componenti correlati",
+      "keywords": ["specchietto", "retrovisore", "calotta", "vetro specchietto", "regolazione"],
+      "subcategories": []
+    },
+    {
+      "id": "serrature",
+      "name": "Serrature",
+      "description": "Serrature e componenti correlati",
+      "keywords": ["serratura", "chiusura", "maniglia", "cilindretto", "chiave", "telecomando"],
+      "subcategories": []
+    },
+    {
+      "id": "climatizzazione",
+      "name": "Climatizzazione",
+      "description": "Componenti del sistema di climatizzazione",
+      "keywords": ["climatizzatore", "condizionatore", "riscaldamento", "ventilazione", "aria condizionata"],
+      "subcategories": ["compressore", "condensatore", "evaporatore", "riscaldamento"]
+    },
+    {
+      "id": "compressore",
+      "name": "Compressore",
+      "description": "Compressori e componenti correlati",
+      "keywords": ["compressore", "frizione compressore", "puleggia compressore", "valvola compressore"],
+      "subcategories": []
+    },
+    {
+      "id": "condensatore",
+      "name": "Condensatore",
+      "description": "Condensatori e componenti correlati",
+      "keywords": ["condensatore", "radiatore clima", "ventola condensatore"],
+      "subcategories": []
+    },
+    {
+      "id": "evaporatore",
+      "name": "Evaporatore",
+      "description": "Evaporatori e componenti correlati",
+      "keywords": ["evaporatore", "valvola espansione", "filtro abitacolo"],
+      "subcategories": []
+    },
+    {
+      "id": "riscaldamento",
+      "name": "Riscaldamento",
+      "description": "Componenti del sistema di riscaldamento",
+      "keywords": ["riscaldamento", "radiatore abitacolo", "resistenza", "ventola abitacolo"],
+      "subcategories": []
+    },
+    {
+      "id": "carburante",
+      "name": "Sistema Carburante",
+      "description": "Componenti del sistema di carburante",
+      "keywords": ["carburante", "benzina", "diesel", "serbatoio", "pompa", "filtro", "iniettore"],
+      "subcategories": ["serbatoio", "pompa_carburante", "filtro_carburante", "iniettori"]
+    },
+    {
+      "id": "serbatoio",
+      "name": "Serbatoio",
+      "description": "Serbatoi e componenti correlati",
+      "keywords": ["serbatoio", "tappo serbatoio", "galleggiante", "indicatore livello"],
+      "subcategories": []
+    },
+    {
+      "id": "pompa_carburante",
+      "name": "Pompa Carburante",
+      "description": "Pompe carburante e componenti correlati",
+      "keywords": ["pompa carburante", "pompa benzina", "pompa gasolio", "regolatore pressione"],
+      "subcategories": []
+    },
+    {
+      "id": "filtro_carburante",
+      "name": "Filtro Carburante",
+      "description": "Filtri carburante e componenti correlati",
+      "keywords": ["filtro carburante", "filtro benzina", "filtro gasolio", "decantatore"],
+      "subcategories": []
+    },
+    {
+      "id": "iniettori",
+      "name": "Iniettori",
+      "description": "Iniettori e componenti correlati",
+      "keywords": ["iniettore", "polverizzatore", "common rail", "ugello", "elettroiniettore"],
+      "subcategories": []
+    },
+    {
+      "id": "scarico",
+      "name": "Sistema di Scarico",
+      "description": "Componenti del sistema di scarico",
+      "keywords": ["scarico", "marmitta", "silenziatore", "catalizzatore", "tubo", "collettore", "sonda"],
+      "subcategories": ["collettore_scarico", "catalizzatore", "silenziatore", "terminale_scarico"]
+    },
+    {
+      "id": "collettore_scarico",
+      "name": "Collettore di Scarico",
+      "description": "Collettori di scarico e componenti correlati",
+      "keywords": ["collettore scarico", "header", "guarnizione collettore", "flangia"],
+      "subcategories": []
+    },
+    {
+      "id": "catalizzatore",
+      "name": "Catalizzatore",
+      "description": "Catalizzatori e componenti correlati",
+      "keywords": ["catalizzatore", "marmitta catalitica", "convertitore catalitico", "fap", "dpf"],
+      "subcategories": []
+    },
+    {
+      "id": "silenziatore",
+      "name": "Silenziatore",
+      "description": "Silenziatori e componenti correlati",
+      "keywords": ["silenziatore", "marmitta centrale", "risonatore", "camera espansione"],
+      "subcategories": []
+    },
+    {
+      "id": "terminale_scarico",
+      "name": "Terminale di Scarico",
+      "description": "Terminali di scarico e componenti correlati",
+      "keywords": ["terminale scarico", "marmitta posteriore", "tubo finale", "coda"],
+      "subcategories": []
+    },
+    {
+      "id": "ruote_pneumatici",
+      "name": "Ruote e Pneumatici",
+      "description": "Ruote, pneumatici e componenti correlati",
+      "keywords": ["ruota", "pneumatico", "gomma", "cerchio", "cerchione", "mozzo", "cuscinetto"],
+      "subcategories": ["pneumatici", "cerchi", "mozzi_cuscinetti"]
+    },
+    {
+      "id": "pneumatici",
+      "name": "Pneumatici",
+      "description": "Pneumatici e componenti correlati",
+      "keywords": ["pneumatico", "gomma", "copertone", "battistrada", "spalla", "valvola"],
+      "subcategories": []
+    },
+    {
+      "id": "cerchi",
+      "name": "Cerchi",
+      "description": "Cerchi e componenti correlati",
+      "keywords": ["cerchio", "cerchione", "lega", "acciaio", "bullone", "dado", "coprimozzo"],
+      "subcategories": []
+    },
+    {
+      "id": "mozzi_cuscinetti",
+      "name": "Mozzi e Cuscinetti",
+      "description": "Mozzi, cuscinetti e componenti correlati",
+      "keywords": ["mozzo", "cuscinetto ruota", "flangia", "distanziale", "dado mozzo"],
+      "subcategories": []
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "language": "it",
+    "last_updated": "2023-05-15",
+    "total_categories": 60,
+    "main_categories": 11
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "title_analysis": {
+    "min_length": 30,
+    "max_length": 100,
+    "optimal_length": 60,
+    "keyword_density": {
+      "min": 1,
+      "max": 3,
+      "optimal": 2
+    },
+    "stop_words_max_percentage": 30,
+    "capitalization_rules": [
+      "Prima lettera maiuscola per ogni parola importante",
+      "Evitare TUTTE MAIUSCOLE",
+      "Evitare tutte minuscole"
+    ],
+    "banned_patterns": [
+      "!!!",
+      "???",
+      "***",
+      "###",
+      "SUPER",
+      "MEGA",
+      "IPER",
+      "ULTRA",
+      "OFFERTA",
+      "SCONTO",
+      "PROMOZIONE"
+    ],
+    "recommended_patterns": [
+      "[Marca] [Modello] [Caratteristica principale]",
+      "[Tipo prodotto] per [Applicazione] - [Marca]",
+      "[Caratteristica principale] [Tipo prodotto] [Marca] per [Modello auto]"
+    ],
+    "score_weights": {
+      "length": 20,
+      "keyword_density": 25,
+      "stop_words": 15,
+      "capitalization": 10,
+      "banned_patterns": 15,
+      "brand_model_inclusion": 15
+    }
+  },
+  "description_analysis": {
+    "min_length": 300,
+    "max_length": 2000,
+    "optimal_length": 800,
+    "keyword_density": {
+      "min": 1,
+      "max": 2,
+      "optimal": 1.5
+    },
+    "paragraphs": {
+      "min": 3,
+      "max": 8,
+      "optimal": 5
+    },
+    "sentences_per_paragraph": {
+      "min": 2,
+      "max": 5,
+      "optimal": 3
+    },
+    "recommended_sections": [
+      "Introduzione al prodotto",
+      "Caratteristiche tecniche",
+      "Compatibilità",
+      "Vantaggi",
+      "Istruzioni di installazione",
+      "Garanzia e assistenza"
+    ],
+    "html_elements": {
+      "allowed": ["p", "br", "ul", "ol", "li", "strong", "em", "h2", "h3", "table", "tr", "td", "th"],
+      "recommended": ["ul", "li", "strong", "h2", "h3"]
+    },
+    "score_weights": {
+      "length": 15,
+      "keyword_density": 20,
+      "paragraphs": 10,
+      "sentences": 10,
+      "sections": 15,
+      "html_formatting": 10,
+      "technical_details": 20
+    }
+  },
+  "seo_optimization": {
+    "title_tag": {
+      "min_length": 40,
+      "max_length": 70,
+      "optimal_length": 60,
+      "keyword_position": "inizio",
+      "brand_position": "fine",
+      "separator": " | "
+    },
+    "meta_description": {
+      "min_length": 120,
+      "max_length": 160,
+      "optimal_length": 150,
+      "elements": ["keyword principale", "caratteristica unica", "call to action"]
+    },
+    "url_structure": {
+      "max_length": 100,
+      "optimal_length": 60,
+      "separator": "-",
+      "elements": ["categoria", "sottocategoria", "marca", "modello", "caratteristica"]
+    },
+    "h1_tag": {
+      "min_length": 30,
+      "max_length": 80,
+      "optimal_length": 60
+    },
+    "image_optimization": {
+      "alt_text": {
+        "min_length": 30,
+        "max_length": 100,
+        "elements": ["marca", "modello", "tipo prodotto", "caratteristica principale"]
+      },
+      "file_name": {
+        "separator": "-",
+        "elements": ["marca", "modello", "tipo-prodotto", "id"]
+      }
+    },
+    "schema_markup": {
+      "recommended_types": ["Product", "Offer", "AggregateRating", "Brand", "Vehicle", "VehiclePart"]
+    }
+  },
+  "technical_terms": {
+    "importance_levels": {
+      "critical": 5,
+      "high": 4,
+      "medium": 3,
+      "low": 2,
+      "optional": 1
+    },
+    "required_by_category": {
+      "motore": ["cilindrata", "potenza", "coppia", "alimentazione"],
+      "freni": ["diametro", "spessore", "materiale", "posizione"],
+      "trasmissione": ["tipo", "rapporti", "compatibilità"],
+      "sospensioni": ["tipo", "altezza", "rigidità"],
+      "sterzo": ["tipo", "servoassistenza", "rapporto"],
+      "elettronica": ["tensione", "amperaggio", "compatibilità"],
+      "carrozzeria": ["materiale", "colore", "posizione"],
+      "climatizzazione": ["potenza", "gas", "compatibilità"],
+      "carburante": ["tipo", "pressione", "portata"],
+      "scarico": ["diametro", "materiale", "omologazione"],
+      "ruote_pneumatici": ["dimensioni", "indici", "stagione", "tipo"]
+    }
+  },
+  "compatibility": {
+    "importance": "critical",
+    "format": {
+      "auto": "[Marca] [Modello] [Anno] [Versione]",
+      "moto": "[Marca] [Modello] [Anno] [Cilindrata]",
+      "veicoli_commerciali": "[Marca] [Modello] [Anno] [Versione] [Portata]"
+    },
+    "verification_levels": [
+      "Verificato dal produttore",
+      "Testato internamente",
+      "Compatibilità dichiarata",
+      "Compatibilità presunta"
+    ]
+  },
+  "quality_indicators": {
+    "originale": {
+      "keywords": ["originale", "OEM", "primo equipaggiamento", "casa madre"],
+      "weight": 5
+    },
+    "aftermarket_premium": {
+      "keywords": ["premium", "alta qualità", "prestazioni superiori", "garanzia estesa"],
+      "weight": 4
+    },
+    "aftermarket_standard": {
+      "keywords": ["equivalente", "compatibile", "alternativo", "sostitutivo"],
+      "weight": 3
+    },
+    "economico": {
+      "keywords": ["economico", "conveniente", "basso costo", "entry level"],
+      "weight": 2
+    },
+    "rigenerato": {
+      "keywords": ["rigenerato", "ricondizionato", "revisionato", "garantito"],
+      "weight": 3
+    },
+    "usato": {
+      "keywords": ["usato", "seconda mano", "smontato", "funzionante"],
+      "weight": 1
+    }
+  },
+  "brand_recognition": {
+    "tier_1": [
+      "Bosch", "Brembo", "Magneti Marelli", "Valeo", "Continental", "Denso", "NGK", "Sachs", 
+      "Febi Bilstein", "Hella", "Pierburg", "Mann-Filter", "SKF", "FAG", "INA", "LUK", "ZF", 
+      "TRW", "Delphi", "Mahle", "Garrett", "Aisin", "Exedy", "Koyo", "NTN-SNR", "Dayco", "Gates"
+    ],
+    "tier_2": [
+      "Corteco", "Elring", "Victor Reinz", "Ajusa", "Payen", "Triscan", "Meyle", "Lemförder", 
+      "Sidem", "Moog", "Optimal", "Mapco", "Swag", "Ruville", "ATE", "Textar", "Ferodo", 
+      "Jurid", "Mintex", "Pagid", "Akebono", "Nipparts", "Blue Print", "Herth+Buss", "Vemo", "Facet"
+    ],
+    "tier_3": [
+      "Meat & Doria", "Hoffer", "Starline", "Japanparts", "Ashika", "Japko", "Airtex", 
+      "Dolz", "Saleri", "Hepu", "Graf", "Metelli", "Cifam", "Remsa", "Roadhouse", "Icer", 
+      "Bendix", "Delphi", "Metzger", "Topran", "Hans Pries", "Automega", "Maxgear", "Kager", "Esen"
+    ],
+    "oem_brands": [
+      "Alfa Romeo", "Audi", "BMW", "Citroën", "Dacia", "Fiat", "Ford", "Honda", "Hyundai", 
+      "Jaguar", "Jeep", "Kia", "Lancia", "Land Rover", "Mazda", "Mercedes-Benz", "Mini", 
+      "Mitsubishi", "Nissan", "Opel", "Peugeot", "Porsche", "Renault", "Seat", "Škoda", 
+      "Smart", "Subaru", "Suzuki", "Toyota", "Volkswagen", "Volvo"
+    ]
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "language": "it",
+    "last_updated": "2023-05-15",
+    "author": "Product Categorizer SEO Team"
+  }
+}
