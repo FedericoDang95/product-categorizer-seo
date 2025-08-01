@@ -1,0 +1,156 @@
+version: '3.8'
+
+services:
+  # Servizio principale dell'API
+  product-categorizer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: product-categorizer-api
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - LOG_LEVEL=INFO
+      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=postgresql://postgres:password@postgres:5432/categorizer
+      - CACHE_BACKEND=redis
+      - RATE_LIMIT_STORAGE_URL=redis://redis:6379/1
+    volumes:
+      - ./logs:/app/logs
+      - ./cache:/app/cache
+      - ./data:/app/data
+    depends_on:
+      - redis
+      - postgres
+    restart: unless-stopped
+    networks:
+      - categorizer-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Redis per caching e rate limiting
+  redis:
+    image: redis:7-alpine
+    container_name: product-categorizer-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    restart: unless-stopped
+    networks:
+      - categorizer-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # PostgreSQL per persistenza dati (opzionale)
+  postgres:
+    image: postgres:15-alpine
+    container_name: product-categorizer-db
+    environment:
+      - POSTGRES_DB=categorizer
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+    networks:
+      - categorizer-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # Nginx come reverse proxy (opzionale per produzione)
+  nginx:
+    image: nginx:alpine
+    container_name: product-categorizer-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - product-categorizer
+    restart: unless-stopped
+    networks:
+      - categorizer-network
+    profiles:
+      - production
+
+  # Prometheus per monitoring (opzionale)
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: product-categorizer-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention.time=200h'
+      - '--web.enable-lifecycle'
+    restart: unless-stopped
+    networks:
+      - categorizer-network
+    profiles:
+      - monitoring
+
+  # Grafana per visualizzazione metriche (opzionale)
+  grafana:
+    image: grafana/grafana:latest
+    container_name: product-categorizer-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
+      - ./monitoring/grafana/datasources:/etc/grafana/provisioning/datasources
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+    networks:
+      - categorizer-network
+    profiles:
+      - monitoring
+
+volumes:
+  redis_data:
+    driver: local
+  postgres_data:
+    driver: local
+  prometheus_data:
+    driver: local
+  grafana_data:
+    driver: local
+
+networks:
+  categorizer-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+
+# Configurazioni per diversi ambienti
+# Sviluppo: docker-compose up
+# Produzione: docker-compose --profile production up
+# Con monitoring: docker-compose --profile monitoring up
